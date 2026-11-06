@@ -6,9 +6,9 @@ c_const = 1
 G_const = 1
 E_const = 100
 
-x = np.array([100, 120, 0])
+x = np.array([100, 100, 0])
 t = 0
-p = np.array([-10, -10, 0])
+p = np.array([0, -10, 0])
 pt = -E_const
 
 r = np.linalg.norm(x)
